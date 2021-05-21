@@ -50,3 +50,6 @@ bazel build -c opt --copt=-mavx --copt=-mavx2 --copt=-msse4.1 --copt=-msse4.2 -k
 pip uninstall /tmp/tensorflow_pkg/tensorflow-
 pip install --user /tmp/tensorflow_pkg/tensorflow-1.13.0rc2-cp35-cp35m-linux_x86_64.whl
 ```
+
+Sentinel uses memnode 0 as fast memory and memnode 1 as slow memory. 
+
