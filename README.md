@@ -54,3 +54,5 @@ pip install --user /tmp/tensorflow_pkg/tensorflow-1.13.0rc2-cp35-cp35m-linux_x86
 
 Sentinel uses memnode 0 as fast memory and memnode 1 as slow memory. 
 
+To use Sentinel, user needs to add APIs start_profile(), end_profile(), and add_layer() to help Sentinel identify migration intervals. 
+
