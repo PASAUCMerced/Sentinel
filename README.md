@@ -40,7 +40,7 @@ To install Tensorflow
 ```
 # Install bazel v0.21.0 (https://docs.bazel.build/versions/master/install.html)
 
-#Clean tensorflow and install it takes tens of minutes
+# Clean tensorflow and install it takes tens of minutes
 bazel clean --expunge
 bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 bazel build -c opt --copt=-mavx --copt=-mavx2 --copt=-msse4.1 --copt=-msse4.2 -k //tensorflow/tools/pip_package:build_pip_package
