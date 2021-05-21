@@ -1,6 +1,6 @@
 load("//tensorflow:tensorflow.bzl", "tf_custom_op_library")
 
 tf_custom_op_library(
-    name = "add_layer.so",
-    srcs = ["add_layer.cc"],
+    name = "end_profile.so",
+    srcs = ["end_profile.cc"],
 )

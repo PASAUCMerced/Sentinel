@@ -3,10 +3,6 @@
 
 using namespace tensorflow;
 
-REGISTER_OP("AddLayer")
-    .Input("to_zero: int32")
-    .Output("zeroed: int32")
-    .SetShapeFn([](::tensorflow::shape_inference::InferenceContext* c) {
-      c->set_output(0, c->input(0));
-      return Status::OK();
-    });
+REGISTER_OP("StartProfile")
+    .Input()
+    .Output();
