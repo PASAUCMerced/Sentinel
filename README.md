@@ -56,3 +56,7 @@ Sentinel uses memnode 0 as fast memory and memnode 1 as slow memory.
 
 To use Sentinel, user needs to add APIs start_profile(), end_profile(), and add_layer() to help Sentinel identify migration intervals. 
 
+Reference 
+
+J. Ren, J. Luo, K. Wu, M. Zhang, H. Jeon and D. Li, "Sentinel: Efficient Tensor Migration and Allocation on Heterogeneous Memory Systems for Deep Learning," 2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA), 2021, pp. 598-611, doi: 10.1109/HPCA51647.2021.00057.
+
